@@ -13,7 +13,7 @@ struct Node *head = NULL; //pointer to head node of the linked list
 
 //Create the Linked list
 void createList(int data){
-    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node)); //C++: new Node()
+    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
     newNode->key = data;
     newNode->next = NULL;
 
