@@ -46,6 +46,7 @@ void insert(int data, int pos){
     if (pos == 1){
         newNode->next = head;
         head = newNode;
+        return;
     }
 
     //Insert node in remaining list
